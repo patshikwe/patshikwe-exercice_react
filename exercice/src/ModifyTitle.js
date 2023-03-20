@@ -39,8 +39,10 @@ function ModifyTitle() {
        }
     return (
         <>
-            <h1>Mon langage préféré est {langage}</h1>
-            <button onClick={()=>{changeTitle()}}>Cliquez ici</button>
+            <h1>Un de mes langages préférés est {langage}</h1>
+            <button onClick={()=>{changeTitle()}}>
+                Cliquez ici pour afficher l'un de mes langages préférés
+            </button>
         </>
     );
 }
