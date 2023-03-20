@@ -1,6 +1,5 @@
 import ModifyTitle from'./ModifyTitle'
 import Addition from'./calculator/Addition'
-import './App.css';
 
 function App() {
   return (
