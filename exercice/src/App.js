@@ -1,4 +1,5 @@
 import ModifyTitle from'./ModifyTitle'
+import Addition from'./calculator/Addition'
 import './App.css';
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
       </header>
       <ModifyTitle/>
+      <div>
+      <Addition/>
+      </div>
     </div>
   );
 }
