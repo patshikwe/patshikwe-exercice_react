@@ -8,7 +8,7 @@ function Index (){
         
         let sum = ''
 
-        /**Fonction logique avec 2 paramètre */
+        /**Fonction logique avec 2 paramètres */
         function add (num1, num2){
             sum = num1 + num2
             return sum
@@ -25,13 +25,11 @@ function Index (){
         // Les fonctions useState
         setNumberOne(number1)
         setNumberTwo(number2)
-
-        console.log(sum)
         setSum(sum)
     }
  return(
     <div>
-        <button onClick={()=>{enterData()}}>Cliquez ici pour l'addition</button>
+        <button onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
         <>
         {numberOne !== null && numberTwo !== null ?(<div>
                 {numberOne} + {numberTwo} = {sum}
