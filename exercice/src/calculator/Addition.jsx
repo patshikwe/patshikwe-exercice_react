@@ -1,4 +1,6 @@
 import { useState } from "react"
+import Reset from'../components/Reset'
+
 
 function Index (){
     const [numberOne, setNumberOne] = useState(null)
@@ -26,14 +28,15 @@ function Index (){
         setNumberOne(number1)
         setNumberTwo(number2)
         setSum(sum)
+
     }
  return(
     <div>
         <button onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
         <>
-        {numberOne !== null && numberTwo !== null ?(<div>
-                {numberOne} + {numberTwo} = {sum}
-        </div>): null}
+        {numberOne !== null && numberTwo !== null ?(<><div>
+                 {numberOne} + {numberTwo} = {sum}
+             </div><Reset init={()=>{setNumberOne(null)}} /></>): null}
         </>   
     </div>
  )
