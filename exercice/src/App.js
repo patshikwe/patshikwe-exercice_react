@@ -1,5 +1,7 @@
 import ModifyTitle from'./ModifyTitle'
 import Addition from'./calculator/Addition'
+import Multiplication from'./calculator/Multiplication'
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <ModifyTitle/>
       <div>
       <Addition/>
+      <Multiplication/>
       </div>
     </div>
   );
