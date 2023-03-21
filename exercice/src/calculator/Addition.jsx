@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Reset from'../components/Reset'
+import '../App.css'
 
 
 function Index (){
@@ -32,7 +33,7 @@ function Index (){
     }
  return(
     <div>
-        <button onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
+        <button className="btn" onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
         <>
         {numberOne !== null && numberTwo !== null ?(<><div>
                  {numberOne} + {numberTwo} = {sum}

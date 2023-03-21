@@ -1,4 +1,5 @@
 import { useState } from "react"
+import '../App.css'
 
 
 function Index (){
@@ -29,8 +30,8 @@ function Index (){
         
     }
     return(
-        <div>
-            <button onClick={()=>{enterData()}}>
+        <div className="marg-bot">
+            <button className="btn" onClick={()=>{enterData()}}>
                 Tu veux faire de la Multiplication? Cliques!
             </button>
             <>

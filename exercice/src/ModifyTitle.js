@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css'
 
 function ModifyTitle() {
     
@@ -39,10 +40,12 @@ function ModifyTitle() {
        }
     return (
         <>
-            <h1>Un de mes langages préférés est {langage}</h1>
-            <button onClick={()=>{changeTitle()}}>
+            <h1 className="Txt-center">Un de mes langages préférés est <span className="color-let-sp">{langage}</span></h1>
+            <div className="width-marg displ-flx-center">
+            <button className="btn" onClick={()=>{changeTitle()}}>
                 Cliquez ici pour afficher l'un de mes langages préférés
             </button>
+            </div>
         </>
     );
 }

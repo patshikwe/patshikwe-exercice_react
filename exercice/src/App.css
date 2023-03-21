@@ -1,0 +1,70 @@
+
+
+.App {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    border: 5px dotted black ;
+    background-image: linear-gradient(rgb(221, 202, 202), rgb(214, 168, 168), rgb(214, 190, 146));
+}
+
+h1 {
+    background-color: white;
+    color: #7171878c;
+    text-shadow: 1px 1px 1px black
+}
+
+.color-let-sp {
+    color: rgb(81, 5, 246);
+    letter-spacing: 2px;
+}
+
+.Txt-center {
+    text-align: center;
+}
+
+.displ-grid-just-center {
+    display: grid;
+    justify-content: center;
+}
+
+.width-marg {
+    width: 80%;
+    margin: auto;
+}
+
+.displ-flx-center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px 0 6px 0;
+    text-shadow: 1px 0px 1px black;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px rgb(35, 32, 32);
+}
+.btn:hover {
+    background-color: #7171878c;
+    border: 1px solid rgb(200, 161, 121);
+    animation: anim_btn 0.5s linear;
+    color: aliceblue;
+    text-shadow: 2px 0px 2px black;
+    letter-spacing: 3px;
+}
+@keyframes anim_btn {
+    100% {
+      translate: 5px;
+    }
+}
+
+.pad-top {
+    padding-top: 20px;
+}
+
+.marg-bot {
+    margin-bottom: 10px;
+}
