@@ -17,9 +17,9 @@ function Index (){
             return sum
         }
          /** Variable avec la méthode prompt */
-        let number1 = Number(prompt("Svp, entrez le premier chiffre ou nombre", ""))
+        let number1 = Number(prompt("S'il vous plait, entrez le premier chiffre ou nombre", ""))
          /** Variable avec la méthode prompt */
-        let number2 = Number(prompt("Svp, entrez le deuxième chiffre ou nombre", ""))
+        let number2 = Number(prompt("S'il vous plait, entrez le deuxième chiffre ou nombre", ""))
         
         /**Appel fonction avec des variables en paramètres */
         multi(number1, number2)
@@ -33,7 +33,7 @@ function Index (){
     return(
         <div className="marg-bot">
             <button className="btn" onClick={()=>{enterData()}}>
-                Tu veux faire de la Multiplication? Cliques!
+                Vous voulez faire de la Multiplication? Cliquez ici!
             </button>
             <>
                 {numberOne !== null && numberTwo !== null ? (<><div className="screen-calc">

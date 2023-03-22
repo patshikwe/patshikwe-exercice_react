@@ -18,9 +18,9 @@ function Index (){
         }
 
         /** Variable avec la méthode prompt */
-        let number1 = Number(prompt("Svp, entrez le premier chiffre ou nombre", " "))
+        let number1 = Number(prompt("S'il vous plait, entrez le premier chiffre ou nombre", " "))
         /** Variable avec la méthode prompt */
-        let number2 = Number(prompt("Svp, entrez le deuxième chiffre ou nombre", " "))
+        let number2 = Number(prompt("S'il vous plait, entrez le deuxième chiffre ou nombre", " "))
 
         //Appal de la fonction avec des variables en paramètre
         add(number1, number2)
@@ -33,7 +33,7 @@ function Index (){
     }
  return(
     <div>
-        <button className="btn" onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
+        <button className="btn" onClick={()=>{enterData()}}>Vous voulez faire de l'addition? Cliquez ici!</button>
         <>
         {numberOne !== null && numberTwo !== null ?(<><div className="screen-calc">
                  {numberOne} + {numberTwo} = {sum}
