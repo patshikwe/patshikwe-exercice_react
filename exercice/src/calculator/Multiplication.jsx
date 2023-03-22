@@ -35,7 +35,7 @@ function Index (){
                 Tu veux faire de la Multiplication? Cliques!
             </button>
             <>
-                {numberOne !== null && numberTwo !== null ? (<div>
+                {numberOne !== null && numberTwo !== null ? (<div className="screen-calc">
                     {numberOne} * {numberTwo} = {sum}
                 </div>) : null}
             </>

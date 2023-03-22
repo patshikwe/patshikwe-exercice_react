@@ -35,7 +35,7 @@ function Index (){
     <div>
         <button className="btn" onClick={()=>{enterData()}}>Tu veux faire de l'addition? Cliques!</button>
         <>
-        {numberOne !== null && numberTwo !== null ?(<><div>
+        {numberOne !== null && numberTwo !== null ?(<><div className="screen-calc">
                  {numberOne} + {numberTwo} = {sum}
              </div><Reset init={()=>{setNumberOne(null)}} /></>): null}
         </>   
