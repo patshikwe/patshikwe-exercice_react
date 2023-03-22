@@ -8,6 +8,8 @@ function Index() {
     const [numberOne, setNumberOne] = useState(null)
     const [numberTwo, setNumberTwo] = useState(null)
     const [sum, setSum] = useState('')
+
+    /**Fonction Addition */
     const enterData = () => {
         let sum = ''
 

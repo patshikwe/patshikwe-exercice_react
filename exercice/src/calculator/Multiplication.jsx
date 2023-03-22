@@ -9,6 +9,7 @@ function Index() {
     const [numberTwo, setNumberTwo] = useState(null)
     const [sum, setSum] = useState('')
 
+    /**Fonction Multiplication */
     const enterData = () => {
         let sum = ''
         /** Fonction logique avec 2 paramètres */
