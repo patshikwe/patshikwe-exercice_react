@@ -1,10 +1,10 @@
-
+/* CSS ciblé */
 
 .App {
     margin: auto;
     width: 90%;
     height: auto;
-    border: 5px dotted black ;
+    border: 5px dotted black;
     background-image: linear-gradient(rgb(221, 202, 202), rgb(214, 168, 168), rgb(214, 190, 146));
 }
 
@@ -56,6 +56,7 @@ h1 {
     letter-spacing: 3px;
     box-shadow: 1px 1px 1px rgb(35, 32, 32);
 }
+
 .btn:hover {
     background-color: #7171878c;
     border: 1px solid rgb(200, 161, 121);
@@ -68,11 +69,13 @@ h1 {
     25% {
         background-color: #cbcbdffe;
     }
+
     50% {
         background-color: #b8b8d0eb;
     }
+
     100% {
-         background-color: #7171878c;
+        background-color: #7171878c;
     }
 }
 
